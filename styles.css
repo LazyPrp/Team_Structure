@@ -1,0 +1,131 @@
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        /* background-color: #c2ccc2; */
+
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .meet {
+        text-align: center;
+        font-weight: bold;
+        padding: 20px;
+        font-size: 30px;
+      }
+
+      .meet span {
+
+        display: inline-block;
+        padding: 20px 40px;
+        background-color: black;
+        color: rgb(221, 226, 75);
+        text-shadow: 2px 2px 4px #000;
+        transition: background-color 0.3s ease;
+      }
+
+      .meet span:hover {
+        background-color: #555;
+      }
+
+      .company-info {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .company-info h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+
+      .company-info p {
+        font-size: 18px;
+        color: #ccc;
+      }
+
+      main {
+        padding: 20px;
+        background-color: #b6f6de;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        
+      }
+
+      .team-section {
+        margin-bottom: 40px;
+      }
+
+      .team-section h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #333;
+        text-transform: uppercase;
+        text-align: center;
+        background-color: #f2f2f2;
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      .team-section:nth-child(odd) h2 {
+        background-color: #e6e6e6;
+      }
+
+      .team-section:nth-child(even) h2 {
+        background-color: #d9d9d9;
+
+      }
+
+      .team-members {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .team-member {
+        width: 250px;
+        padding: 20px;
+        margin: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .team-member:hover {
+        transform: translateY(-5px);
+      }
+
+      .team-member img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+
+      .team-member h3 {
+        margin: 5px 0;
+        font-size: 20px;
+        color: #333;
+      }
+
+      .team-member p {
+        margin: 0;
+        color: #666;
+      }
+
+      .team-member p.role {
+        font-style: italic;
+        margin-top: 5px;
+      }
